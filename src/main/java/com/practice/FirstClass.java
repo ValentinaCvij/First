@@ -5,6 +5,7 @@ public class FirstClass {
         for (int i = 1; i <= 100; i++){
             System.out.println(convert(i));
         }
+        System.out.println("Gotovo.");
     }
 
     public static String convert (int something) {
@@ -20,4 +21,6 @@ public class FirstClass {
 
         return String.valueOf(something);
     }
+
+
 }
